@@ -1,7 +1,7 @@
 package com.example.GerenciamentoAutores.Repositorie;
 
-import Models.AutorModel;
+import com.example.GerenciamentoAutores.Models.AutorModel;
 import org.springframework.data.jpa.repository.JpaRepository;
 
-public interface AutorRepositorie extends JpaRepository<AutorModel, Long> {
+public interface AutorRepositorie extends JpaRepository<AutorModel,Long> {
 }
